@@ -1,7 +1,5 @@
-# Medi-Care Project
+# Multi_Modal_Model test Medi-Care 
 
-## Introduction
-Medi-Care utilizes LLaVA-Med base weights for precise visual question answering in medical images, alongside the LLaMA model for accurate answer generation. This combination enables efficient and accurate diagnostic support, enhancing healthcare outcomes.
 
 ## Installation
 
@@ -9,7 +7,7 @@ Medi-Care utilizes LLaVA-Med base weights for precise visual question answering 
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/rahulsharmavishwakarma/medi-care.git
+    git clone https://github.com/alecrimi/multi_model_medicare.git
     cd medi-care
     ```
 
@@ -53,16 +51,6 @@ To start the inference, run the following commands in the terminal:
     ```sh
     python -m llava.serve.gradio_web_server --controller http://localhost:10008 --share
     ```
-
-## Contributing
-We welcome contributions from the community. To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a Pull Request.
 
 
 ---
